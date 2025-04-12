@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+.tutor-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-radius: 12px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 600;
+  color: #333;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px 12px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+  border-color: #4285f4;
+  outline: none;
+}
+
+button {
+  background-color: #4285f4;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-right: 10px;
+  font-weight: 600;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+  background-color: #357ae8;
+  transform: translateY(-1px);
+}
+
+button:disabled {
+  background-color: #cccccc;
+  cursor: not-allowed;
+}
+
+.introduction, .response, .tab-content {
+  margin-top: 25px;
+  padding: 20px;
+  background-color: #f9fafb;
+  border-radius: 8px;
+  border: 1px solid #eee;
+}
+
+.tabs {
+  margin-top: 25px;
+  display: flex;
+  gap: 10px;
+}
+
+.tabs button {
+  background-color: #eee;
+  color: #333;
+  padding: 10px 16px;
+  border-radius: 8px;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  font-weight: 500;
+}
+
+.tabs button:hover {
+  background-color: #ddd;
+}
+
+.tabs button.active {
+  background-color: #4285f4;
+  color: white;
+}
+
+.error {
+  color: #e53935;
+  font-weight: bold;
+}
+
+.quiz-question {
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+.toggle-answer {
+  background-color: #34a853;
+  color: white;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.toggle-answer:hover {
+  background-color: #2c8c47;
+  transform: translateY(-1px);
+}
+
+.answer {
+  margin-top: 12px;
+  padding: 15px;
+  background-color: #e6f4ea;
+  border-left: 4px solid #34a853;
+  border-radius: 6px;
+}
+
+.difficulty-selector {
+  margin: 20px 0;
+}
