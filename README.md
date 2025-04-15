@@ -2,11 +2,13 @@
 An AI-powered intelligent learning assistant that analyzes student inputs and predicts stress levels, proficiency, learning styles, and difficulty levels. It generates personalized learning roadmaps, study materials, and skill assessments to enhance individual learning outcomes — all in one platform.
 
 🚀 Features
+
 🎯 Proficiency Prediction – Predicts learner’s skill level using gradient boosting  regression.
 
 🧠 Stress Detection – Uses Random Forest to predict stress levels from input.
 
-🔎 Concept Explainer – Uses NLP to explain any topic in simple terms.
+🔎 Concept Explainer – Uses NLP to explain any topic in simple terms(BART AND TinyRobertA model).
+
 
 🧰 Tech Stack
 Frontend
