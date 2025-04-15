@@ -7,7 +7,7 @@ An AI-powered intelligent learning assistant that analyzes student inputs and pr
 
 🧠 Stress Detection – Uses Random Forest to predict stress levels from input.
 
-🔎 Concept Explainer – Uses NLP to explain any topic in simple terms(BART AND TinyRobertA model).
+🔎 Concept Explainer – Uses NLP to explain any topic in simple terms(BART & tinyroberta-squad2 model).
 
 
 🧰 Tech Stack
