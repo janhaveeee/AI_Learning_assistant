@@ -1,4 +1,4 @@
-🎓 Learning-Based Tutoring Assistant
+🎓 AI Tutoring Assistant
 An AI-powered intelligent learning assistant that analyzes student inputs and predicts stress levels, proficiency, learning styles, and difficulty levels. It generates personalized learning roadmaps, study materials, and skill assessments to enhance individual learning outcomes — all in one platform.
 
 🚀 Features
